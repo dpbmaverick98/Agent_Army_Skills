@@ -43,7 +43,7 @@ Brief description of what this operation does.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/service/endpoint",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/service/endpoint",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -129,7 +129,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/service-name`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/service-name`
 ```
 
 ## Operation Documentation Format
@@ -263,7 +263,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/my-service`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/my-service`
 
 ## Common Operations
 
@@ -276,7 +276,7 @@ Description of what this query does.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/my-service/query",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/my-service/query",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -298,7 +298,7 @@ Check service availability.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/my-service/health",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/my-service/health",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

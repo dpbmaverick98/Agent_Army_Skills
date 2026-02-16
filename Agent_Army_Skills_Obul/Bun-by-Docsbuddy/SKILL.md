@@ -62,7 +62,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun`
 
 ## How to Discover Collections
 
@@ -71,7 +71,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -89,7 +89,7 @@ Get all available documentation collections for Bun with their descriptions.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -107,7 +107,7 @@ Get a concise, explanation-focused answer about Bun (max 6 paragraphs, inline co
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/ask/quick/bun_guides_ecosystem",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/ask/quick/bun_guides_ecosystem",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -123,7 +123,7 @@ Get a concise, explanation-focused answer about Bun (max 6 paragraphs, inline co
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/ask/quick/bun_guides_test",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/ask/quick/bun_guides_test",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -145,7 +145,7 @@ Get comprehensive technical answers with architecture patterns, design trade-off
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/ask/deep/bun_guides_http",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/ask/deep/bun_guides_http",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -167,7 +167,7 @@ Create a step-by-step tutorial with prerequisites, 4-7 steps, minimal code snipp
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/journey/bun_guides_ecosystem",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/journey/bun_guides_ecosystem",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -183,7 +183,7 @@ Create a step-by-step tutorial with prerequisites, 4-7 steps, minimal code snipp
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/journey/bun_guides_test",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/journey/bun_guides_test",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -204,7 +204,7 @@ Poll for async request completion. Returns status (pending/processing/completed/
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/status/550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/bun/status/550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -220,7 +220,7 @@ Retrieve the full original source document used in an answer. Each source in the
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

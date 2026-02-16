@@ -39,7 +39,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk`
 
 ## How to Discover Collections
 
@@ -48,7 +48,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -64,7 +64,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -80,7 +80,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/quick/ai_sdk_tutorials",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/quick/ai_sdk_tutorials",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -96,7 +96,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/quick/ai_sdk_ui",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/quick/ai_sdk_ui",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -112,7 +112,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/quick/ai_sdk_providers",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/quick/ai_sdk_providers",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -132,7 +132,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/deep/ai_sdk_core",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/ask/deep/ai_sdk_core",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -152,7 +152,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/journey/ai_sdk_tutorials",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/journey/ai_sdk_tutorials",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -168,7 +168,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/journey/ai_sdk_tutorials",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/journey/ai_sdk_tutorials",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -184,7 +184,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/journey/ai_sdk_ui",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/journey/ai_sdk_ui",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -202,7 +202,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/status/550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/status/550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -216,7 +216,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

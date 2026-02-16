@@ -35,7 +35,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth`
 
 ## Common Operations
 
@@ -46,7 +46,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -60,7 +60,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/ask/quick/better_auth_docs",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/ask/quick/better_auth_docs",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -78,7 +78,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/ask/deep/better_auth_docs",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/ask/deep/better_auth_docs",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -96,7 +96,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/journey/better_auth_docs",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/journey/better_auth_docs",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -114,7 +114,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/status/550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/better-auth/status/550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -128,7 +128,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

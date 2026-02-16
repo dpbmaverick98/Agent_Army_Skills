@@ -35,7 +35,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket`
 
 ## Common Operations
 
@@ -46,7 +46,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -60,7 +60,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/ask/quick/polymarket_docs",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/ask/quick/polymarket_docs",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -78,7 +78,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/ask/deep/polymarket_docs",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/ask/deep/polymarket_docs",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -96,7 +96,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/journey/polymarket_docs",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/journey/polymarket_docs",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -114,7 +114,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/status/550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/polymarket/status/550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -128,7 +128,7 @@ All requests route through the Obul proxy and require an API key header:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

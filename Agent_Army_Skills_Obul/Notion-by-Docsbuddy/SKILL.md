@@ -61,7 +61,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion`
 
 ## How to Discover Collections
 
@@ -70,7 +70,7 @@ Call the collections endpoint to see all available categories:
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -88,7 +88,7 @@ Get all available documentation collections for Notion with their descriptions.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/collections",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/collections",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -106,7 +106,7 @@ Get a concise, explanation-focused answer about Notion API (max 6 paragraphs, in
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/quick/notion_api_auth",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/quick/notion_api_auth",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -122,7 +122,7 @@ Get a concise, explanation-focused answer about Notion API (max 6 paragraphs, in
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/quick/notion_guides_data_apis",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/quick/notion_guides_data_apis",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -138,7 +138,7 @@ Get a concise, explanation-focused answer about Notion API (max 6 paragraphs, in
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/quick/notion_api_objects_core",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/quick/notion_api_objects_core",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -160,7 +160,7 @@ Get comprehensive technical answers with architecture patterns, design trade-off
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/deep/notion_api_auth",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/deep/notion_api_auth",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -176,7 +176,7 @@ Get comprehensive technical answers with architecture patterns, design trade-off
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/deep/notion_api_objects_core",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/ask/deep/notion_api_objects_core",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -198,7 +198,7 @@ Create a step-by-step tutorial with prerequisites, 4-7 steps, minimal code snipp
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/journey/notion_guides_getting_started",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/journey/notion_guides_getting_started",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -214,7 +214,7 @@ Create a step-by-step tutorial with prerequisites, 4-7 steps, minimal code snipp
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/journey/notion_guides_data_apis",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/journey/notion_guides_data_apis",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -230,7 +230,7 @@ Create a step-by-step tutorial with prerequisites, 4-7 steps, minimal code snipp
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/journey/notion_guides_mcp",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/journey/notion_guides_mcp",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -250,7 +250,7 @@ Poll for async request completion.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/status/550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/notion/status/550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -266,7 +266,7 @@ Retrieve the full original source document.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/docsbuddy/source/550e8400-e29b-41d4-a716-446655440000/doc-0",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

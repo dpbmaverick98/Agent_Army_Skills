@@ -2,7 +2,7 @@
 
 AI-powered skills for the Agent Army ecosystem, accessible via the Obul proxy.
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api`
 
 ## Quick Access
 

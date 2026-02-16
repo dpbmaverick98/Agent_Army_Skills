@@ -27,7 +27,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1`
 
 ## Common Operations
 
@@ -40,7 +40,7 @@ Launch a multi-step AI research task. Returns a `requestId` to poll for results.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/research",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/research",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -65,7 +65,7 @@ Poll for research completion. Call repeatedly until `status` is `completed` or `
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/research/status?requestId=550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/research/status?requestId=550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -86,7 +86,7 @@ Fetch stars, forks, language, recent commits, and contributor stats.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/repo-metadata",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/repo-metadata",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -106,7 +106,7 @@ Retrieve raw content of a specific file.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/file-content",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/file-content",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -130,7 +130,7 @@ List directory contents with optional file inclusion.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/repo-structure",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/repo-structure",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -153,7 +153,7 @@ Find public repositories by keywords, language, or topics.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/search-repos",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/search-repos",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -185,7 +185,7 @@ Search for code patterns within a specific repository.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/search-code",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/api/search-code",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -208,7 +208,7 @@ Verify service availability before spending credits.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/health",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/openrepo/v1/health",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }

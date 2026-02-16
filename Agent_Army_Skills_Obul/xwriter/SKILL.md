@@ -27,7 +27,7 @@ All requests route through the Obul proxy and require an API key header:
 }
 ```
 
-**Base URL:** `https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter`
+**Base URL:** `https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter`
 
 ## Workflow Overview
 
@@ -48,7 +48,7 @@ Start an async research task on a topic using X/Twitter search and web search. A
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/topics/research",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/topics/research",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -80,7 +80,7 @@ Poll for async request completion. Call repeatedly until `status` is `completed`
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/status?requestId=550e8400-e29b-41d4-a716-446655440000",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/status?requestId=550e8400-e29b-41d4-a716-446655440000",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -101,7 +101,7 @@ Generate tweets from research context with X-Algo engagement optimization. Retur
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/tweets/write",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/tweets/write",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -150,7 +150,7 @@ Verify service availability before spending credits.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/health",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/health",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -164,7 +164,7 @@ Verify service availability before spending credits.
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/topics/research",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/topics/research",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -182,7 +182,7 @@ Verify service availability before spending credits.
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/status?requestId=abc-123",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/status?requestId=abc-123",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -198,7 +198,7 @@ Extract the comprehensive context from the research result and use it to write t
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/tweets/write",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/tweets/write",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
@@ -219,7 +219,7 @@ Extract the comprehensive context from the research result and use it to write t
 ```json
 {
   "method": "GET",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/status?requestId=def-456",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/status?requestId=def-456",
   "headers": {
     "x-obul-api-key": "{{OBUL_API_KEY}}"
   }
@@ -264,7 +264,7 @@ If you already know what you want to say and just need it rewritten:
 ```json
 {
   "method": "POST",
-  "url": "https://proxy.devnet.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/tweets/write",
+  "url": "https://proxy.obul.ai/proxy/https/mavs-agent-army.fly.dev/api/xwriter/api/tweets/write",
   "headers": {
     "Content-Type": "application/json",
     "x-obul-api-key": "{{OBUL_API_KEY}}"
