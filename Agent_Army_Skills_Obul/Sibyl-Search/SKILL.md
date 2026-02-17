@@ -75,7 +75,7 @@ Check the status of an async request.
 
 Raw semantic search results from Exa with domain filtering.
 
-**Pricing:** $0.05
+**Pricing:** $0.02
 
 ```json
 {
@@ -102,7 +102,7 @@ Raw semantic search results from Exa with domain filtering.
 
 Get synthesized answers with optional structured output via JSON Schema.
 
-**Pricing:** $0.05
+**Pricing:** $0.01
 
 ```json
 {
