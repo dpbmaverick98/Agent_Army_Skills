@@ -10,22 +10,25 @@ Fetch any skill directly:
 
 ```bash
 # OpenRepo - GitHub Research Agent
-curl https://mavs-agent-army.fly.dev/api/openrepo/skill
+https://mavs-agent-army.fly.dev/api/openrepo/skill
 
 # xWriter - AI Tweet Generation
-curl https://mavs-agent-army.fly.dev/api/xwriter/skill
+https://mavs-agent-army.fly.dev/api/xwriter/skill
+
+# Chronos Get - Date & Time API
+https://mavs-agent-army.fly.dev/api/chronos/skill
 
 # DocsBuddy Skills - Documentation Q&A
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/bun/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/notion/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/privy/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/polymarket/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/better-auth/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/browserbase/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/xai/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/relay/skill
-curl https://mavs-agent-army.fly.dev/api/docsbuddy/sprites/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/bun/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/notion/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/privy/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/polymarket/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/better-auth/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/browserbase/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/xai/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/relay/skill
+https://mavs-agent-army.fly.dev/api/docsbuddy/sprites/skill
 ```
 
 ## Available Skills
@@ -54,6 +57,19 @@ AI tweet generation with X/Twitter research and X-Algo engagement optimization.
 - Async processing
 
 **Price Range:** $0.0001 - $0.15
+
+---
+
+### Chronos Get 🕐
+Timezone conversion and current time API with IANA timezone database support and DST handling.
+
+**Tools:**
+- Current time lookup for any timezone
+- Convert datetimes between timezones
+- List supported IANA timezones
+- DST-aware conversions
+
+**Price Range:** $0.00 - $0.005
 
 ---
 
