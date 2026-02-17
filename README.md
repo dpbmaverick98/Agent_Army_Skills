@@ -10,25 +10,28 @@ Fetch any skill directly:
 
 ```bash
 # OpenRepo - GitHub Research Agent
-https://mavs-agent-army.fly.dev/api/openrepo/skill
+curl https://mavs-agent-army.fly.dev/api/openrepo/skill
 
 # xWriter - AI Tweet Generation
-https://mavs-agent-army.fly.dev/api/xwriter/skill
+curl https://mavs-agent-army.fly.dev/api/xwriter/skill
 
 # Chronos Get - Date & Time API
-https://mavs-agent-army.fly.dev/api/chronos/skill
+curl https://mavs-agent-army.fly.dev/api/chronos/skill
+
+# Sibyl Search - Unified Exa + Grok Search
+curl https://mavs-agent-army.fly.dev/api/sibyl/skill
 
 # DocsBuddy Skills - Documentation Q&A
-https://mavs-agent-army.fly.dev/api/docsbuddy/bun/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/notion/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/privy/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/polymarket/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/better-auth/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/browserbase/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/xai/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/relay/skill
-https://mavs-agent-army.fly.dev/api/docsbuddy/sprites/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/bun/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/notion/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/ai-sdk/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/privy/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/polymarket/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/better-auth/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/browserbase/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/xai/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/relay/skill
+curl https://mavs-agent-army.fly.dev/api/docsbuddy/sprites/skill
 ```
 
 ## Available Skills
@@ -70,6 +73,29 @@ Timezone conversion and current time API with IANA timezone database support and
 - DST-aware conversions
 
 **Price Range:** $0.00 - $0.005
+
+---
+
+### Sibyl Search 🔮
+Unified search API combining Exa web search and xAI Grok capabilities - search the web, X/Twitter, or both simultaneously.
+
+**Features:**
+- Exa semantic web search with domain filtering
+- Exa RAG with JSON Schema structured output
+- Grok real-time web search
+- Grok X/Twitter search with date ranges
+- Grok combined (web + X) search
+- Reasoning/thinking mode for complex analysis
+- Automatic truncation detection with /max endpoints
+- Normalized citations across all sources
+
+**Token Limits:**
+- Regular endpoints: 2,400 tokens
+- MAX endpoints: 8,000 tokens
+
+**Async Pattern:** POST to start → Poll with requestId → Get results
+
+**Price Range:** $0.00 - $0.18
 
 ---
 
